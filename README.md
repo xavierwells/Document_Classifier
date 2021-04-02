@@ -11,4 +11,5 @@ This repository will contain all source code, documentation, and project files f
 ### Sprint 2  
  - [Sprint 2 plan](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/ETqKvJZ_1C9HnZGWcOuQwVUBpIoEdH2fkLCdfkr-nYa0OA?e=r1ru4Y)  
  - [System Requirements Specification (SRS)](https://www.overleaf.com/8819592613jzxqmbwvrgfg)  
-
+### Sprint 3  
+- [Architectural Design Spec](https://www.overleaf.com/8762391253yxybqmzjybbc)  
