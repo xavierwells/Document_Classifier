@@ -11,5 +11,12 @@ This repository will contain all source code, documentation, and project files f
 ### Sprint 2  
  - [Sprint 2 plan](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/ETqKvJZ_1C9HnZGWcOuQwVUBpIoEdH2fkLCdfkr-nYa0OA?e=r1ru4Y)  
  - [System Requirements Specification (SRS)](https://www.overleaf.com/8819592613jzxqmbwvrgfg)  
+ - [Sprint 2 Review](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/EfYyY5oREm1NpGKr41E9aGYBqi6f9j6AUGzcjak0JsCwfQ?e=eOShK0)  
 ### Sprint 3  
+- [Sprint 3 Plan](https://mavsuta-my.sharepoint.com/:p:/g/personal/koshish_khadka_mavs_uta_edu/EY8z4uln3T1GrG4TMZfVDJMBglioHbUiqvKnDx6mYbdRUg?e=OXwa2E)  
+- [Peer Review](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/EfND96MVeutOqTdgDDNOz5cBtg7S5GeNnZhIIjCRmkc_0g?e=y0oy0c)  
 - [Architectural Design Spec](https://www.overleaf.com/8762391253yxybqmzjybbc)  
+- [Sprint 3 Review](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/ESpHDgpG4CpBkLyOA_CBTlQBk4-hxdQAQ-2X-tF4Io2S6A?e=fbwcRK)  
+### Sprint 4  
+- [Sprint 4 Plan](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/EXNdzTi4DV1JgLsg2_xENdcBVOicokdHQiceF_Mtfz5bNg?e=QaCtEH)  
+- [Website Post](https://github.com/xavierwells/Document_Classifier/web)  
