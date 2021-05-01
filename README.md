@@ -19,4 +19,4 @@ This repository will contain all source code, documentation, and project files f
 - [Sprint 3 Review](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/ESpHDgpG4CpBkLyOA_CBTlQBk4-hxdQAQ-2X-tF4Io2S6A?e=fbwcRK)  
 ### Sprint 4  
 - [Sprint 4 Plan](https://mavsuta-my.sharepoint.com/:p:/g/personal/xavier_wells_mavs_uta_edu/EXNdzTi4DV1JgLsg2_xENdcBVOicokdHQiceF_Mtfz5bNg?e=QaCtEH)  
-- [Website Post](https://github.com/xavierwells/Document_Classifier/web)  
+- [Website Post](https://mavsuta-my.sharepoint.com/:w:/g/personal/xavier_wells_mavs_uta_edu/EVZ3vnzueJpJpfP1-gRfwCoB7iRRxqbPWq2-nHE_NVH4MQ?e=Oen8fs)  
