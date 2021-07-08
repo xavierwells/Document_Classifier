@@ -1,0 +1,48 @@
+# download and extract identidoc final release
+mkdir identidoc
+cd identidoc
+wget https://github.com/IdentiDoc/identiDoc/archive/refs/tags/v1.5.tar.gz
+tar -xvzf v1.5.tar.gz
+cd identiDoc-1.5
+
+# RUN IDENTIDOC SETUP_ENV NOW
+
+# setting up venv properly, what was missed in original script
+source identidoc_venv/bin/activate
+sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
+sudo apt-get install -y python3-opencv
+pip install opencv-python
+pip install uwsgi
+deactivate
+
+# REBOOT THE SERVER
+echo "You now must reboot your system"
+
+##################################other stuff###############################
+
+# startup commands #
+#   cd identidoc/identiDoc-1.5
+#   source identidoc_venv/bin/activate
+#   cd identidoc
+#   uwsgi --http :5000 --wsgi-file uwsgi.py
+
+
+# system info #
+# This has only been tested on ubuntu server 20.04, although it should work on other builds with these scripts.
+# I'm using a single core, 2gb ram, 10gb virtual hard drive Oracle VM Virtual Box to run this. 
+	# If using NAT for network connectivity(recommended) you must port forward port 5000 if you would like to access identidoc from the host machine. 
+	# Before writing the rule, run "hostname -I" and copy that ip address, that will be your Guest IP
+	# To write the rule, go into the VM settings, then to network, make sure adapter 1 says attached to NAT, click the advanced dropdown, and select port forwarding. 
+	# Add a rule and write
+		# Name: "anything you want"
+		# Protocol: TCP
+		# Host IP: 0.0.0.0
+		# Host Port: 5000
+		# Guest IP: *result from the command hostname -I that we ran above*
+		# Guest Port: 5000
+	# To connect from host machine type: "localhost:5000" in the web browser
+  
+# shared folders on VM #
+# set uo the shard folder in the vm
+# follow the link below instructions carefully
+# https://linuxize.com/post/how-to-install-virtualbox-guest-additions-in-ubuntu/
