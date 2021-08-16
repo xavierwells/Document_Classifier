@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Home page</title>
+      <link rel="stylesheet" href="./static/css/query.css">
+
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+            <nav class="teal">
+              <div class="container">
+                <div class="nav-wrapper">
+                  <a href="index.html" class="brand-logo">Document Classification</a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                   <ul class="right hide-on-med-and-down">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="upload.html">Upload</a>
+                    </li>
+                    <li>
+                      <a href="query.html">Query</a>
+                    </li>
+                    <li>
+                      <a href="about.html">About</a>
+                    </li>                    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+
+ 
+
+
+
+
+
+
+
+<form action="">
+  <div class="container" id="formbox">
+      <h1>Query</h1>
+      <p>Select from the following to query documents</p>
+      <hr>
+      <label for="date">Select file uploaded date:</label>
+
+      <input type="date" id="start" name="trip-start"
+         value=""
+         min="2021-01-01" max="2021-12-31">
+
+      
+      <label>Document Class</label>
+      <select name="document" style="display: block;">
+        <option value="file1">File1</option>
+        <option value="file2">File2</option>
+      </select>
+      <label>Signature presenet?</label>
+      <select name="document" style="display: block;">
+        <option value="file1">Yes</option>
+        <option value="file2">No</option>
+      </select>
+      <label>Entries:</label>
+      <input id="entry" type="number" name="Entries">
+      
+      <button type="submit" class="btn btn-large">Retrieve</button>
+    
+  </div>
+
+</form>
+
+
+
+
+
+    
+
+
+  
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script src="./static/js/query.js"></script>
+    
+<!-- Footer -->
+<footer id="footer" class="section teal darken-2 white-text center">
+    <p class="flow-text">Optical Profilers &copy; 2021</p>
+</footer>
+
+
+
+
+    </body>
+</html>

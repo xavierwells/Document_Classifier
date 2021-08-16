@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#uploadPage").load("upload.html"); 
+    });
+    </script>
+    <script> 
+    $(function(){
+      $("#queryPage").load("query.html"); 
+    });
+    </script>
+    <script> 
+    $(function(){
+      $("#aboutPage").load("about.html"); 
+    });
+    </script>
+      <!--Import Google Icon Font-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Home page</title>
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+            <nav class="teal">
+              <div class="container">
+                <div class="nav-wrapper">
+                  <a href="index.html" class="brand-logo">Document Classification</a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                   <ul class="right hide-on-med-and-down">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="upload.html">Upload</a>
+                    </li>
+                    <li>
+                      <a href="query.html">Query</a>
+                    </li>
+                    <li>
+                      <a href="about.html">About</a>
+                    </li>                    
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+
+          <!-- Section: Slider -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://images.unsplash.com/photo-1615309662472-4ca77a77a189?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="">
+        <div class="caption center-align">
+          <h2>Upload</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Upload your files and images for classification</h5>
+          <a href="upload.html" class="btn btn-large">Upload</a>
+        </div>
+      </li>
+      <li>
+        <img src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="">
+        <div class="caption left-align">
+          <h2>Query</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Find the documents you posted</h5>
+          <a href="query.html" class="btn btn-large">Query</a>
+        </div>
+      </li>
+      <li>
+        <img src="https://images.unsplash.com/photo-1504711331083-9c895941bf81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="">
+        <div class="caption right-align">
+          <h2>About</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Learn how we implement</h5>
+          <a href="about.html" class="btn btn-large">About</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section: Icon Boxes -->
+  <section class="section section-icons grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">upload</i>
+            <h4>Upload</h4>
+            <p>Upload file from you file system and we'll classify the file based on it's type</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">download</i>
+            <h4>Query</h4>
+            <p>Retrieve the previously uploaded files based on its class</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">info</i>            
+            <h4>About</h4>
+            <p>Learn how we implement classification, storage, and retrieval system</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+<!-- Footer -->
+<footer class="section teal darken-2 white-text center">
+    <p class="flow-text">Optical Profilers &copy; 2021</p>
+</footer>
+
+
+<script>
+
+
+    // Slider
+    const slider = document.querySelector('.slider');
+    M.Slider.init(slider, {
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 4000
+      });
+</script>   
+
+    </body>
+</html>
